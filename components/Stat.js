@@ -3,14 +3,14 @@ import React from "react";
 export default function Stat() {
   return (
     <div>
-      <div ClassName='w-full shadow stats'>
-        <div ClassName='stat'>
-          <div ClassName='stat-figure text-primary'>
+      <div className='w-full shadow stats'>
+        <div className='stat'>
+          <div className='stat-figure text-primary'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               fill='none'
               viewBox='0 0 24 24'
-              ClassName='inline-block w-8 h-8 stroke-current'
+              className='inline-block w-8 h-8 stroke-current'
             >
               <path
                 stroke-linecap='round'
@@ -20,17 +20,17 @@ export default function Stat() {
               ></path>
             </svg>
           </div>
-          <div ClassName='stat-title'>Total Donasi</div>
-          <div ClassName='stat-value text-primary'>Rp. 5.486.983.585</div>
-          <div ClassName='stat-desc'>Terkumpul</div>
+          <div className='stat-title'>Total Donasi</div>
+          <div className='stat-value text-primary'>Rp. 5.486.983.585</div>
+          <div className='stat-desc'>Terkumpul</div>
         </div>
-        <div ClassName='stat'>
-          <div ClassName='stat-figure text-info'>
+        <div className='stat'>
+          <div className='stat-figure text-info'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               fill='none'
               viewBox='0 0 24 24'
-              ClassName='inline-block w-8 h-8 stroke-current'
+              className='inline-block w-8 h-8 stroke-current'
             >
               <path
                 stroke-linecap='round'
@@ -40,25 +40,25 @@ export default function Stat() {
               ></path>
             </svg>
           </div>
-          <div ClassName='stat-title'>Donatur</div>
-          <div ClassName='stat-value text-info'>23.636</div>
-          <div ClassName='stat-desc'>Berpartisipasi</div>
+          <div className='stat-title'>Donatur</div>
+          <div className='stat-value text-info'>23.636</div>
+          <div className='stat-desc'>Berpartisipasi</div>
         </div>
-        <div ClassName='stat'>
-          <div ClassName='stat-figure text-info'>
-            <div ClassName='avatar online'>
-              <div ClassName='w-16 h-16 p-1 mask mask-squircle bg-base-100'>
+        <div className='stat'>
+          <div className='stat-figure text-info'>
+            <div className='avatar online'>
+              <div className='w-16 h-16 p-1 mask mask-squircle bg-base-100'>
                 <img
                   src='/iconGYD.png'
                   alt='Avatar Tailwind CSS Component'
-                  ClassName='mask mask-squircle'
+                  className='mask mask-squircle'
                 />
               </div>
             </div>
           </div>
-          <div ClassName='stat-value'>73</div>
-          <div ClassName='stat-title'>Program</div>
-          <div ClassName='stat-desc text-info'>Lihat Program</div>
+          <div className='stat-value'>73</div>
+          <div className='stat-title'>Program</div>
+          <div className='stat-desc text-info'>Lihat Program</div>
         </div>
       </div>
     </div>
