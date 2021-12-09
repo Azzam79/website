@@ -4,8 +4,8 @@ import Link from "next/link";
 export default function navbar() {
   return (
     <div>
-      <div ClassName='navbar mb-2 shadow-lg bg-primary text-neutral-content'>
-        <div ClassName='pb-1 md:pl-20 mx-2 flex-none'>
+      <div className='navbar mb-2 shadow-lg bg-primary text-neutral-content'>
+        <div className='pb-1 md:pl-20 mx-2 flex-none'>
           <Link href='/'>
             <a>
               <img src='/logo-gyd-home.png' />
@@ -13,15 +13,15 @@ export default function navbar() {
           </Link>
         </div>
 
-        <div ClassName='flex justify-end flex-1 px-2 navbar-center'>
-          <div ClassName='items-stretch hidden lg:flex'>
-            <div ClassName='dropdown dropdown-end'>
-              <div tabindex='0' ClassName='btn btn-ghost rounded-btn'>
+        <div className='flex justify-end flex-1 px-2 navbar-center'>
+          <div className='items-stretch hidden lg:flex'>
+            <div className='dropdown dropdown-end'>
+              <div tabindex='0' className='btn btn-ghost rounded-btn'>
                 Zakat
               </div>
               <ul
                 tabindex='0'
-                ClassName='p-4 shadow menu dropdown-content bg-secondary rounded-box w-52'
+                className='p-4 shadow menu dropdown-content bg-secondary rounded-box w-52'
               >
                 <li>
                   <a>Zakat Pemberdayaan</a>
@@ -55,15 +55,15 @@ export default function navbar() {
           </div>
         </div>
 
-        <div ClassName='flex justify-end flex-2 px-2 navbar-center'>
-          <div ClassName='items-stretch hidden lg:flex'>
-            <div ClassName='dropdown dropdown-end'>
-              <div tabindex='0' ClassName='btn btn-ghost rounded-btn'>
+        <div className='flex justify-end flex-2 px-2 navbar-center'>
+          <div className='items-stretch hidden lg:flex'>
+            <div className='dropdown dropdown-end'>
+              <div tabindex='0' className='btn btn-ghost rounded-btn'>
                 Layanan Kami
               </div>
               <ul
                 tabindex='0'
-                ClassName='p-4 shadow menu dropdown-content bg-secondary rounded-box  w-52'
+                className='p-4 shadow menu dropdown-content bg-secondary rounded-box  w-52'
               >
                 <li>
                   <a>FAQ</a>
@@ -88,15 +88,15 @@ export default function navbar() {
           </div>
         </div>
 
-        <div ClassName='flex justify-end flex-2 px-2 navbar-center'>
-          <div ClassName='items-stretch hidden lg:flex'>
-            <div ClassName='dropdown dropdown-end'>
-              <div tabindex='0' ClassName='btn btn-ghost rounded-btn'>
+        <div className='flex justify-end flex-2 px-2 navbar-center'>
+          <div className='items-stretch hidden lg:flex'>
+            <div className='dropdown dropdown-end'>
+              <div tabindex='0' className='btn btn-ghost rounded-btn'>
                 Tentang Kami
               </div>
               <ul
                 tabindex='0'
-                ClassName='p-4 shadow menu dropdown-content bg-secondary rounded-box  w-52'
+                className='p-4 shadow menu dropdown-content bg-secondary rounded-box  w-52'
               >
                 <li>
                   <a>Profil GYD</a>
@@ -112,25 +112,25 @@ export default function navbar() {
           </div>
         </div>
 
-        <div ClassName='flex justify-end flex-2 px-2 navbar-center'>
-          <div ClassName='items-stretch hidden lg:flex'>
-            <div ClassName='dropdown dropdown-end'>
-              <div tabindex='0' ClassName='btn btn-ghost rounded-btn'>
+        <div className='flex justify-end flex-2 px-2 navbar-center'>
+          <div className='items-stretch hidden lg:flex'>
+            <div className='dropdown dropdown-end'>
+              <div tabindex='0' className='btn btn-ghost rounded-btn'>
                 Lokasi Asrama
               </div>
             </div>
           </div>
         </div>
 
-        <div ClassName='flex justify-end flex-2 px-2 navbar-center'>
-          <div ClassName='items-stretch hidden lg:flex'>
-            <div ClassName='dropdown dropdown-end'>
-              <div tabindex='0' ClassName='btn btn-ghost rounded-btn'>
+        <div className='flex justify-end flex-2 px-2 navbar-center'>
+          <div className='items-stretch hidden lg:flex'>
+            <div className='dropdown dropdown-end'>
+              <div tabindex='0' className='btn btn-ghost rounded-btn'>
                 Program
               </div>
               <ul
                 tabindex='0'
-                ClassName='p-4 shadow menu dropdown-content bg-secondary rounded-box  w-52'
+                className='p-4 shadow menu dropdown-content bg-secondary rounded-box  w-52'
               >
                 <li>
                   <a>Pendidikan</a>
@@ -155,14 +155,14 @@ export default function navbar() {
           </div>
         </div>
 
-        <div ClassName='navbar-end'>
-          <button ClassName='btn btn-square btn-ghost'></button>
-          <button ClassName='btn btn-square btn-ghost'>
+        <div className='navbar-end'>
+          <button className='btn btn-square btn-ghost'></button>
+          <button className='btn btn-square btn-ghost'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               fill='none'
               viewBox='0 0 24 24'
-              ClassName='inline-block w-6 h-6 stroke-current'
+              className='inline-block w-6 h-6 stroke-current'
             >
               <path
                 stroke-linecap='round'
