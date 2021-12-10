@@ -4,7 +4,7 @@ import Button from "../components/Button";
 import Footer from "../components/Footer";
 import Blog from "../components/Blog";
 import Stat from "../components/Stat";
-import Mitra from "../components/Mitra";
+
 export default function Home() {
   return (
     <>
